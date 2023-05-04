@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstdlib>
+#include<list>
 using namespace std;
 
 int main(){
@@ -13,4 +14,13 @@ int main(){
     cout<<random<<endl;
 
     return 1;
+}
+int main(){
+    list<int> nums {1, 2, 3, 4};
+
+    cout << "List elements: ";
+    for(int number : nums){
+        cout << number <<", ";
+    }
+    return 0;
 }
